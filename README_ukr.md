@@ -53,7 +53,6 @@ Structure of business processes to automate the approval of tariffs from carrier
 - Скорочення часу прийняття рішень
 - Стандартизація процесу погодження
 - Відстежуваність усіх погоджень та рішень
-- Менше ручної роботи → більше часу для аналітики
 
 ---
 
