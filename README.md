@@ -1,5 +1,6 @@
 # rate-approval-automation
-Structure of business processes to automate the approval of tariffs from carriers
+Structure of business processes to automate the approval of tariffs from carriers.
+
 # Автоматизація погодження ставок з перевізниками
 
 ## Опис кейсу
@@ -25,21 +26,18 @@ Structure of business processes to automate the approval of tariffs from carrier
 ## Структура кейсу
 
 rate-approval-automation/
-│
-├── README.md ← опис проєкту
-├── docs/
+├── README.md # опис проєкту
+├── docs/ # документація
 │ ├── BRD_rate_approval.md
 │ ├── SRS_auto_approval.md
 │ ├── Business_Rules.xlsx
 │ ├── Decision_Table.pdf
 │ └── Acceptance_Criteria.docx
-│
-├── diagrams/
+├── diagrams/ # діаграми BPMN, Use Case
 │ ├── BPMN_AsIs.drawio
 │ ├── BPMN_ToBe.drawio
 │ └── UseCase_Diagram.drawio
-│
-├── ui/
+├── ui/ # UI-макети
 │ └── Wireframe_rate_module.png
 
 
