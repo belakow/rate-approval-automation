@@ -52,7 +52,6 @@ This case demonstrates how to optimize the rate approval process for transportat
 - Reduced decision-making time
 - Standardized approval process
 - Traceability of all approvals and decisions
-- Less manual work → more time for analysis
 
 ---
 
