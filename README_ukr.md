@@ -43,7 +43,7 @@ Structure of business processes to automate the approval of tariffs from carrier
 | `BRD_rate_approval.md`              | Бізнес-вимоги, обсяг проєкту, цілі, вигоди                          |
 | `SRS_auto_approval.md`              | Системні функціональні та нефункціональні вимоги                    |
 | `Business_Rules.xlsx`               | Таблиця правил погодження ставок                                    |
-| `Decision_Table.pdf`                | Візуалізована таблиця для логіки рішень                             |
+| `Decision_Table.xlsx`                | Візуалізована таблиця для логіки рішень                             |
 | `BPMN_AsIs.drawio` / `ToBe.drawio`  | Поточний та бажаний бізнес-процеси                                  |
 | `UseCase_Diagram.drawio`            | Діаграма варіантів використання системи                             |
 | `Wireframe_rate_module.png`         | Прототип UI для погодження ставок                                   |
