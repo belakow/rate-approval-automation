@@ -42,7 +42,7 @@ This case demonstrates how to optimize the rate approval process for transportat
 | `BRD_rate_approval.md`             | Business requirements, project scope, goals, benefits           |
 | `SRS_auto_approval.md`             | System functional and non-functional requirements                |
 | `Business_Rules.xlsx`              | Table of rate approval rules                                     |
-| `Decision_Table.pdf`               | Visualized decision logic table                                  |
+| `Decision_Table.xlsx`               | Visualized decision logic table                                  |
 | `BPMN_AsIs.drawio` / `ToBe.drawio` | Current and target business processes                            |
 | `UseCase_Diagram.drawio`           | Use case diagram of the system                                   |
 | `Wireframe_rate_module.png`        | UI prototype for rate approval                                   |
