@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Сторінка-1" id="ytLEhvGYOJ3w0qEwgIKS">
+    <mxGraphModel dx="1123" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-18" value="Клієнт" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="940" height="140" as="geometry">
+            <mxRectangle x="150" y="90" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-29" value="Створює запит&lt;div&gt;на перевезення&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-18">
+          <mxGeometry x="50" y="40" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-25" value="Логіст" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="940" height="140" as="geometry">
+            <mxRectangle x="150" y="90" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-30" value="Отримує запит і надсилає перевізникам на розрахунок" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-25">
+          <mxGeometry x="110" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-36" value="Порівнює вручну ставки від перевізників" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-25">
+          <mxGeometry x="310" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-38" value="Узгоджує ставку з керівником" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-25">
+          <mxGeometry x="490" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3pbHyQOfJEhkmRudi0SX-25" source="3pbHyQOfJEhkmRudi0SX-36" target="3pbHyQOfJEhkmRudi0SX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-40" value="Вносить ставку в ERP/Excel таблицю" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-25">
+          <mxGeometry x="670" y="40" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3pbHyQOfJEhkmRudi0SX-25" source="3pbHyQOfJEhkmRudi0SX-38" target="3pbHyQOfJEhkmRudi0SX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-42" value="Підписує угоду&amp;nbsp;&lt;div&gt;з перевізником&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-25">
+          <mxGeometry x="850" y="50" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3pbHyQOfJEhkmRudi0SX-25" source="3pbHyQOfJEhkmRudi0SX-40" target="3pbHyQOfJEhkmRudi0SX-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-26" value="Перевізник" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="30" y="340" width="940" height="140" as="geometry">
+            <mxRectangle x="150" y="90" width="40" height="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-34" value="Надсилає тариф&amp;nbsp;&lt;div&gt;через Viber/Telegram&lt;/div&gt;" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=message;" vertex="1" parent="3pbHyQOfJEhkmRudi0SX-26">
+          <mxGeometry x="254" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3pbHyQOfJEhkmRudi0SX-29" target="3pbHyQOfJEhkmRudi0SX-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3pbHyQOfJEhkmRudi0SX-30" target="3pbHyQOfJEhkmRudi0SX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pbHyQOfJEhkmRudi0SX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3pbHyQOfJEhkmRudi0SX-34" target="3pbHyQOfJEhkmRudi0SX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
